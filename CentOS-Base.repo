@@ -1,4 +1,4 @@
-# /etc/yum.repos.d/CentOS-Base.repo
+# /etc/yum.repos.d/CentOS-Vault.repo
 
 [base]
 name=CentOS-7.9.2009 - Base
@@ -24,13 +24,6 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 [centosplus]
 name=CentOS-7.9.2009 - Plus
 baseurl=http://vault.centos.org/7.9.2009/centosplus/$basearch/
-gpgcheck=1
-enabled=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-
-[contrib]
-name=CentOS-7.9.2009 - Contrib
-baseurl=http://vault.centos.org/7.9.2009/contrib/$basearch/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
